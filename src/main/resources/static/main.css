@@ -1,0 +1,14 @@
+home-jumbo {
+    background: ('/img/ga.jpg') center;
+.media-body {
+    margin-left: 12px;
+
+    h1.tytułowa{
+        color:  #db1b3b ;
+        border: 2px solid black;
+        text-align: center;
+        font-style:top;
+      }
+      body {
+         background-color:  Silver;
+

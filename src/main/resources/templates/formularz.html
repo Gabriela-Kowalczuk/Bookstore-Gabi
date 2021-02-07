@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriela formularz</title>
+    <link rel="stylesheet" href ="main.css">
+</head>
+<body>
+
+<p>W ramach planów zwiększenia asortymenu sklepu prosimy cię uprzejmie o wypełnienie poniższej Ankiety<br><br>
+    ma ona na celu okreslenie preferencji czytelniczych naszych klientów i lepsze dopasowanie podaży. Dziękujemy.</p>
+
+<h2>Formularz/Ankieta
+</h2>
+<p> >W ramach planów zwiększenia asortymenu sklepu prosimy cię uprzejmie o wypełnienie poniższej Ankiety<br><br>
+    ma ona na celu okreslenie preferencji czytelniczych naszych klientów .<br/>
+    Pola o etykietach wyświetlonych pogrubioną czcionką są wymagane.
+</p>
+<form action="mailto:gabrielle.kowalczuk@gmail.com" method="GET">
+    <div>
+        <label class="required field"for="name">Imię</label>
+        <input id="name"><br/><br/>
+        <label class="required field"for="surname">Nazwisko</label>
+        <input id="surname">
+    </div>
+    <div>
+        <label class="required field">Płeć</label>
+        <label><input type="radio" name="gender" value="male">mężczyzna</label>
+        <label><input type="radio" name="gender" value="female">kobieta</label>
+        <label><input type="radio" name="gender" value="none">Preferuje nie deklarować</label>
+    </div>
+    <div>
+        <label class="required field">System Operacyjny</label>
+        <select id="os">
+            <option value="windows">Windows</option>
+            <option value="macos">Mac OS</option>
+            <option value="linux">Linux</option>
+            <option value="other">Inny...</option>
+        </select>
+    </div>
+    <div>
+        <label class="field">Który teamt cie interesuje</label>
+        <label><input type="checkbox"name="topic" value="travel">Podróże</label>
+        <label><input type="checkbox"name="topic" value="art">Sztuka</label>
+        <label><input type="checkbox"name="topic" value="Books">Literatura</label>
+    </div>
+    <div>
+        <label class="field" for="portrait">Zdjęcie twojego hobby</label>
+        <input type="file" id="portrait">
+    </div>
+    <div>
+        <label class="field" for="bio">Opisz swoje hobby, zainteresowania, pytania.</label>
+        <textarea id="bio" rows=6 cols="40"></textarea>
+    </div>
+    
+    <div id="container">
+        <button id="zapisz">Zapisz</button>
+    </div>
+</form>
+
+<script src="scrypt.js"></script>
+
+
+</body>
+</html>
+
+
+   
